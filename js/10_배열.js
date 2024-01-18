@@ -365,3 +365,21 @@ function check6(){
   }
   
 }
+
+
+
+
+function tempFn(){
+  
+  // 결과 출력 span
+  const result = document.getElementById("result");
+
+  // 점심 메뉴로 초기화된 배열 생성
+  const names = ["노명진", "김한석", "정혜인"];
+
+  // menus 배열 index 범위 내에서 난수 생성
+  const randomNumber = Math.floor( Math.random() * names.length );
+
+  // 난수 번째 index 요소 값을 화면에 출력
+  result.innerText = names[randomNumber];
+}
