@@ -31,6 +31,7 @@ addBtn.addEventListener("click", () => {
 
   // type="number" 추가
   input.setAttribute("type", "number");
+  // input.type = "number";
   
   // 클래스 "input-number" 추가
   input.classList.add("input-number");
@@ -94,3 +95,6 @@ calcBtn.addEventListener("click", ()=>{
   //4) for문 끝나면 alert로 결과 출력
   alert("결과 : " + sum); 
 });
+
+
+
